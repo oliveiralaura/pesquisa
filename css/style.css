@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #0e1038;
+    width: 100%;
+    height: 99vh;
+}
+main{
+    position: relative;
+    top: 70px;
+    background-color: #ECEBE7;
+    width: 50%;
+    height: 500px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: 1px solid #000;
+
+}
+#empresa{
+    width: 100%;
+    height: 45px;
+    position: relative;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000;
+}
+.infopretty{
+    width: 80%;
+    height: 400px;
+    margin: 5px auto;
+    position: relative;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+}
+.forma{
+    width: 80%;
+    height: 400px;
+    margin: 5px auto;
+    position: relative;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 60px;
+}
+#input{
+    width: 35%!important;
+    height: 25px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#input2{
+    width: 35%!important;
+    height: 25px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#id{
+    width: 10%;
+    height: 20px;
+    background-color: aqua;
+    position: relative;
+    top: 20px;
+}
+#envia{
+    width:  80px;
+    height: 25px;
+    position: relative;
+    top: 5%;
+    background-color: #5155a5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#envia:hover {
+    background-color: #9c9fdd;
+    color: #323232;
+}
+.vaivolta{
+    display: flex;
+    min-width: 45%!important;
+    width: auto;
+    height: 30px!important;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+
+}
+.vaivolta span{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+.botao{
+    width:  100px;
+    height: 25px;
+    background-color: #5155a5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.botao:hover {
+    background-color: #9c9fdd;
+    color: #323232;
+}
+.informa{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;    
+    line-height: 20px!important;
+    list-style: none;
+}
